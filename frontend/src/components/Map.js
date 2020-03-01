@@ -49,7 +49,7 @@ class MapComponent extends Component {
       })
       console.log(this.state.position[0], this.state.position[1])
       this.props.setRecommendations(MY_SERVICE.location({location:[this.state.position[0],this.state.position[0]], query:this.props.activity}))
-      this.props.setAsk(false)
+      // this.props.setAsk(false)
     })
   }
   
